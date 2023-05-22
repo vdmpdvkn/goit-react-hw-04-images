@@ -14,7 +14,7 @@ export const Modal = ({ onClose, url }) => {
     }
     onClose();
   };
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     document.body.style.overflow = 'hidden';
     window.addEventListener('keydown', onEscClose);

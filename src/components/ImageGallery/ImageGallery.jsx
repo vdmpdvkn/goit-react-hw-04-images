@@ -15,6 +15,7 @@ const ImageGallery = ({
   images,
   children,
 }) => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (query === '') {
       return;
